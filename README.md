@@ -1,5 +1,5 @@
-# smartSWRCfit
-A Julia-based framework for smart fitting of unimodal, bimodal, and multimodal soil-water retention curves. Code to be released upon publication.
+# pcsr4swrc
+A Julia-based framework for discovering water retention curve equations via symbolic regression. Code and data will be made publicly available upon publication.
 
 This repository contains the source code and example results for the paper titled:
 
@@ -8,9 +8,11 @@ This repository contains the source code and example results for the paper title
 
 ## Structure
 - `src/`: Source code for model training and evaluation
-- `result/`: Example folders containing results for unimodal, bimodal, and multimodal fitting cases
+- `result/`: Example folders containing results for unimodal and multimodal fitting cases
 - `requirements.txt`: Python package requirements
 - `LICENSE`: Open-source license (MIT)
 
 ## Status
-- Paper is currently under review.
+- The paper is currently under peer review.
+- The full source code and dataset will be released following publication.
+- For citation, please refer to the latest Zenodo release: [https://doi.org/10.5281/zenodo.16764203]
